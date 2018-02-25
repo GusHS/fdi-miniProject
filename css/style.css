@@ -4,70 +4,153 @@ html, body{
     padding: 0;
     margin: 0;
 }
-
-#carousel{
-    position: relative;
-    z-index: -1;
-    display: flex;
-    height: 95%;
+#lobby{
+    height: 100%;
     width: 100%;
-    background-image: url("../img/cover1.jpg");
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTextContainer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+}
+#mainTitle{
+    color: white;
+    font-size: 42px;
+    letter-spacing: 5px;
+}
+#mainSubtitle{
+    color:#F9C322;
+}
+.subtitleElement{
+    margin: 5px;
+}
+
+#buttonHolder{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 6%;
+    flex-direction: row;
+}
+.mainButton{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #004395;
+    margin: 10px;
+    width: 12%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stats{
+    height: 50%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.statsBlock{
+    height: 55%;
+    width: 21%;
+    background-color: sandybrown;
+    margin: 1%;
+    border-radius: 2%;
+    box-shadow: 0.1px 0.1px 20px #777777c0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+#sBlock1{
+    background-color: #FF6B57;
+}
+#sBlock2{
+    background-color: #9B59B6;
+}
+#sBlock3{
+    background-color: #41C3AC;
+}
+#sBlock4{
+    background-color: #3498DB;
+}
+.statsNumber{
+    font-size: 54px;
+}
+#demoChooser{
+    height: 150%;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+#demoTitle{
+    display: flex;
+    color:#464657;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+#demoHR{
+    width: 10%;
+    color: #5e5e64;
+}
+#demoDisplay{
+    width: 100%;
+    height: 86%;
+    color: #464657;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.demoContainer{
+    background-color: white;
+    height: 40%;
+    width: 28%;
+    margin: 2%;
+    box-shadow: 0.1px 0.1px 20px #777777c0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.demoImg{
+    width: 100%;
+    height: 75%;
+    background-image: url('../img/home.jpg');
     background-size: cover;
     background-position: center;
 }
-#info{
+
+.demoText{
+    height: 25%;
     width: 100%;
-    height: 5%;
-    background-color: rgb(8, 91, 124);
-}
-.navbar{
-    display: inline-block;
-    margin-top: 2%;
-    height: 100px;
-}
-
-#nav{
-    left: 50%;
-    transform: translateX(-50%);
-    position: fixed;
-    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#navbar1{
-    width: 20%;
-    transform: skewX(160deg);
-    background-color: white;
-    margin-right: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#navbar2{
-    width: 80%;
-    margin-left: 3px;
-    transform: skewX(160deg);
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-#logo{
-    transform: skewX(-160deg);
-    height: 80%;
-    width: 80%;
-}
-
-.navItem{
-    transform: skewX(-160deg);
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin: 2%;
 }
