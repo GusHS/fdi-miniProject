@@ -1,0 +1,17 @@
+.demoContainer:hover .blueBlock {
+    bottom: 0;
+    height: 75%;
+}
+
+.icon:hover{
+    background-color: rgb(216, 216, 216);
+    color: rgb(5, 73, 119);
+}
+
+.mainButton:hover{
+    background-color: white;
+    color: #004395;
+}
+.topBarItem:hover{
+    color: gold;
+}
