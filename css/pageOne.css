@@ -3,6 +3,8 @@ html, body{
     height: 100%;
     padding: 0;
     margin: 0;
+    background-color: white;
+    color: black;
 }
 #blog{
     width: 100%;
@@ -199,7 +201,7 @@ html, body{
     background-color:#004395d7;
 }
 #contactInfo2{
-    margin-left: 33.3%;
+    margin-left: 33.34%;
     width: 33.3%;
     height: 100%;
     background-color:#004395d7;
@@ -291,15 +293,27 @@ html, body{
 #footer{
     margin-top: 0;
     background-color: #004395;
-    height: 10%;
+    height: 8%;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.7vw;
     text-transform: uppercase;
+    color: white;
 }
-
+#content1{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+}
 .footerContent{
-    margin-left: 5px;
+    margin-left: 20px;
+}
+.yellowText{
+    color: #F9C322;
+}
+#content2{
+    margin-left: 33%;
 }

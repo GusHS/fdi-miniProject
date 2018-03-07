@@ -26,3 +26,6 @@
     color: black;
     transition: 0.5s;
 }
+.footerContent:hover{
+    color:#F9C322;
+}
