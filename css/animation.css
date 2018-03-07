@@ -15,3 +15,14 @@
 .topBarItem:hover{
     color: gold;
 }
+
+.galleryTitle:hover{
+    color: #F9C322;
+    transition: 0.3s; 
+    cursor: pointer;
+}
+
+.galleryLink:hover{
+    color: black;
+    transition: 0.5s;
+}
