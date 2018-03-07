@@ -293,8 +293,7 @@ html, body{
     font-family: 'Montserrat', sans-serif;
     display: none;
 }
-
-@media screen and (max-width: 987px) {
+@media only screen and (min-device-width : 374px) and (max-device-width : 667px) { 
     #lobby{
         height: 60%;
     }
@@ -380,7 +379,9 @@ html, body{
     }
 }
 
-@media screen and (max-width: 1025px) {
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
     #lobby{
         height: 60%;
     }
